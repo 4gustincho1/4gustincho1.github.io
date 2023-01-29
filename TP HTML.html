@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="TP CSS.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/485bbb5b51.js" crossorigin="anonymous"></script>
+    <script src="TP JS.js"></script>
+    <style>
+
+         [class*="col-"] {
+        float: left;
+        padding: 15px
+        } 
+
+
+        @media screen and (max-width: 768px) {
+        [class*="col-"] {
+        width: 100%;
+        }
+
+        }
+    </style>
+    <title>CV</title>
+    
+</head>
+<body>
+    <div class="col-3 info">
+        <img id="foto" src="https://randomuser.me/api/portraits/men/67.jpg" alt="william stephens">
+        <h1>William Stephens</h1>
+        <h2 id="titulo1" >Información:</h2>
+        <ul class="lista">
+            <li class="lista" id="fecha">Nacimiento: 12/3/1992</li>
+            <li class="lista" id="dni">DNI: 41782834</li>
+            <li class="lista" id="dire">Dirección: Calle Woodland 1281</li>
+        </ul>
+        
+        <button type="button" onclick="CambiarAContactos()"><i class="fa-solid fa-phone"></i> Contacto</button>
+        <button type="button" onclick="CambiarAInfo()"><i class="fa-solid fa-circle-info"></i> Información</button>
+        
+    </div>
+
+    <div class="col-4 text">
+        <div style="background-color: bisque; padding: 20px;"></div>
+        <span><i class="fa-solid fa-language"></i> Idiomas</span>
+        <ul>
+            <li>Español Nativo</li>
+            <li>Ingles Avanzado</li>
+            <li>Frances Intermedio</li> 
+        </ul>
+        <div></div>
+        <span><i class="fa-solid fa-computer"></i> Aptitudes Informaticas</span>
+        <ul>
+            <li>Microsoft Word Avanzado</li>
+            <li>Microsoft Excel Avanzado</li>
+            <li>Microsoft Access Avanzado</li>
+            <li>Adobe Photoshop Avanzado</li>
+            <li>Adobe Illustrator Intermedio</li>
+            <li>Python Intermedio</li>
+        </ul>
+    </div>
+
+    <div class="col-4 text2">
+        <div style="background-color: bisque; padding: 20px;"></div>
+        <span><i class="fa-solid fa-briefcase"></i> Historial Laboral</span>
+        <ul>
+            <li>Amazon 2007 - 2009</li>
+            <li>Mercadolibre 2009 - 2012</li>
+            <li>Microsoft 2013 - Presente</li>
+        </ul>
+        <div></div>
+        <span><i class="fa-solid fa-book"></i> Estudios</span>
+        <ul>
+            <li>Secundario Completo - Colegio Sagrado Corazon</li>
+            <li>Udemy - Curso Principiante de Python</li>
+            <li>Udemy - Curso Avanzado de Microsoft Excel</li>
+            <li>UNSAM - Tecnicatura en Programacion Informatica</li>
+        </ul>
+    </div>
+   
+</body>
+</html>
